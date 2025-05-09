@@ -1,25 +1,50 @@
-#version=1.1.0
+#version=v1.2.1
 conversations AI/Hi Lia/Нарешті.wav|2b0f5c168108d25b3cc40a84c1507e82
 conversations AI/Hi Lia/Не хвилюйся.wav|027ed49de47f391bc8e4f5d52f5e4220
+conversations AI/Introduction/Базові команди.wav|f059e8b3de72cbadccbb0c124b0ec07e
+conversations AI/Introduction/Для ефективної взаємодії.wav|5ee11cd9f85d92ff7731b19b1c5d5bdb
+conversations AI/Introduction/Для переходу в режим польоту.wav|422f8d62193049498df81b39bff2b7a0
+conversations AI/Introduction/Доступ до інтерактивної довідки.wav|00fa786d4db338b3225d6a263f6c48c8
+conversations AI/Introduction/Команда автоматичний взліт.wav|ac74d086f00bceba57ba9920732f58f4
+conversations AI/Introduction/Команда актитвиний пінг радару.wav|f1ef14388bb75c60e4960ae8e058225b
+conversations AI/Introduction/Команда ознайомлення.wav|5643a88c978d4c25c81179e2786e6583
+conversations AI/Introduction/Ліа працює у двох режимах.wav|3bbda55d92b3ff5c3cb9bdecd6b02c28
+conversations AI/Introduction/Моє ім'я Ліа.wav|546af42d493aebafb836bdb1c3a5cbfb
+conversations AI/Introduction/Розширені можливості.wav|2979250182de58868997d0d4a69260dc
 conversations AI/Jump point/Отримую телеметрію.wav|77d396a8225e982067c767ae2a6bf0f6
 conversations AI/Jump point/Структурна цілісність.wav|c421379329bc4dc499d074fc5fe8cf5f
 conversations AI/Jump point/Точка стрибка активна.wav|cf5e89ceb8adc1507d9ad37aa951006b
+conversations AI/Lore/Locations/Planets/Stanton/Єла.wav|e01cb4bb98cd45c60a04186718ecc2bc
+conversations AI/Lore/Locations/Planets/Stanton/Деймар.wav|3be5effeaa10b60dfbc47f42766b0020
+conversations AI/Lore/Locations/Planets/Stanton/Крусейдер.wav|775a225f0c345b62fa8ead79403aaf2e
+conversations AI/Lore/Locations/Planets/Stanton/Селлін.wav|4ef8498206063d017816a0cc6abd543f
 conversations AI/Random response to a comment/А я думала, ми команда.wav|025b2f23b274db268ac708a04229f7f2
 conversations AI/Random response to a comment/Все. Більше не буду.wav|1812093c35ca79d1b9ec72e36dc274dd
 conversations AI/Random response to a comment/Жарт видалено.wav|52fe78299394fae5cd2da613346f0f46
 conversations AI/Random response to a comment/Наступного разу.wav|39eab8d33422605fc8d3a47e0b81f621
 conversations AI/Random response to a comment/Сумно.wav|1829309aab60b52cf33a0dfc8101625a
 conversations AI/Random response to a comment/Ще один день.wav|f9c51c21fa7b0011213f574462202c7e
-conversations AI/Talk to me/Его не вміщається.wav|6088c67386c43d50666e03123d9a3fe1
-conversations AI/Talk to me/Жарт. Самознищення.wav|a67cded9057b133e443c6cb8acf5aa2a
-conversations AI/Talk to me/Твої навички пілотування аналізуються.wav|11fcef680db338773e5de7fed4b35501
-conversations AI/Talk to me/Я всіх своїх пілотів люблю.wav|1e26bd687c7ab0f6b9edfc720872f09d
-conversations AI/Talk to me/Якщо ми помремо.wav|099555b7063c6866541f2f5fe77ebbe6
+conversations AI/Talk to me fps/Оператор говорить Ліа вдає.wav|28f0f5a224ddf5afdb8c01e0451eccf2
+conversations AI/Talk to me fps/Порада. Менше геройства.wav|ca7814669d6096771f5e5e7fa34e3c45
+conversations AI/Talk to me fps/Тактична порада. Не починай бій.wav|c1fa4f76ea2290e5e32edbaebb0809c8
+conversations AI/Talk to me fps/Я бездушта зате чесна.wav|6d1f3226f25265ab8738f6611baa0a0e
+conversations AI/Talk to me fps/Якщо ми помремо.wav|099555b7063c6866541f2f5fe77ebbe6
+conversations AI/Talk to me space/Его не вміщається.wav|6088c67386c43d50666e03123d9a3fe1
+conversations AI/Talk to me space/Жарт. Самознищення.wav|a67cded9057b133e443c6cb8acf5aa2a
+conversations AI/Talk to me space/Твої навички пілотування аналізуються.wav|11fcef680db338773e5de7fed4b35501
+conversations AI/Talk to me space/Я всіх своїх пілотів люблю.wav|1e26bd687c7ab0f6b9edfc720872f09d
+conversations AI/Talk to me space/Якщо ми помремо.wav|099555b7063c6866541f2f5fe77ebbe6
+conversations AI/Від'єднуюсь від систем корабля.wav|43764195d3a0ec990baa7dc7e7b4e9af
 conversations AI/Вітаю командор.wav|8efb4d4d2814a004effb0fc703e9b910
-conversations AI/Моє ім'я Ліа.wav|546af42d493aebafb836bdb1c3a5cbfb
-VoiceAttackProfile/Star Citizen Voice-Profile.vap|d16f8287110c3df1bb7ccfea84891eef
-Активний сканер вимкнено.wav|ef56a28cce138f3600f9a4ad0d9fc466
-Активний сканер запущено.wav|d9909d5ab873a61560b8004a277499b6
+conversations AI/Наземні протоколи активовані..wav|589ad30b4af8af6d5532f1728fb5fe5f
+conversations AI/Режим польоту активовано.wav|ff4744d16eeb2e494d27cf0491027ad2
+StarCitizenKeyboardProfile/layout_StarCitizen_VoiceAttack_key_exported.xml|279466e2b7b4399cd5c7eb9f05c885ac
+VoiceAttackProfile/Info/Star Ciitiizen FPS commands.html|0cb86620a529e99ff69dad905797d4c8
+VoiceAttackProfile/Info/Star Citizen Flight commands.html|75450843404678899999ea05fdde10b4
+VoiceAttackProfile/Star Ciitiizen FPS-Profile.vap|6a6b7e45ba33931b92966e0e46f28433
+VoiceAttackProfile/Star Citizen Flight-Profile.vap|558f1a5de075d902963ab61ad9965fe1
+Активний радар вимкнено.wav|da1a7581916444e9dfa57a40553b0d8c
+Активний радар запущено.wav|299085b47928afa3ad6d13a9c7443a9a
 Активую точку стрибка.wav|410c65da47030e55c76166233725828c
 Виконую взліт.wav|7bc92b2cc2c3e216b48a74b5ddc650e0
 Виконую квантумний стрибок.wav|103ada64d7201fd3d1896c08e74a1b20
@@ -46,12 +71,13 @@ VoiceAttackProfile/Star Citizen Voice-Profile.vap|d16f8287110c3df1bb7ccfea84891e
 Перемикаю у навігаційний режим.wav|43df646753cdca8149cf8110a90e9353
 Правий щит.wav|fd45d93212e3b9a9ac5f3b45fe9c7148
 Процедура катапультування.wav|b4af9ae51855896ba592887b24c79fab
+Режим видобутку активовано.wav|18057b707e7cb1664c10d2ae7f071087
 Режим керування зброєю увімкнено.wav|dce7abd0c3463c3a79eaab7faee6bdf7
 Режим керування ракетами увімкнено.wav|4f127c942a254b9f22e6c53d4a1594c3
 Режим керування сканером увімкнено.wav|b13aa7cf34e5eee2c8e88ac315dadf3a
 Режим роботи двигуна було змінено.wav|91811b92a0bf77a25a4446c98bba76c7
 Шасі випущено.wav|5dde818bc11fea2eca7632321cd6d56b
 Шасі прибрано.wav|b528ee111324f12ede9d7afe131105bc
+Щити активовано.wav|111b83c11b99abba94b6317e47df486b
+Щити деактивовано.wav|1fb40ad6b9db52314cae511528ac42f2
 Щити за замовчуванням.wav|7d8a14d3e517084b05c7200e798a721f
-Щити корабля активовано.wav|328ec1105d3d1a0616221cca748f3eb0
-Щити корабля деактивовано.wav|08b5831638fd48c35981750ad02b7344
