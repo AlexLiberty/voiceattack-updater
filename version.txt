@@ -1,0 +1,57 @@
+#version=1.1.0
+conversations AI/Hi Lia/Нарешті.wav|2b0f5c168108d25b3cc40a84c1507e82
+conversations AI/Hi Lia/Не хвилюйся.wav|027ed49de47f391bc8e4f5d52f5e4220
+conversations AI/Jump point/Отримую телеметрію.wav|77d396a8225e982067c767ae2a6bf0f6
+conversations AI/Jump point/Структурна цілісність.wav|c421379329bc4dc499d074fc5fe8cf5f
+conversations AI/Jump point/Точка стрибка активна.wav|cf5e89ceb8adc1507d9ad37aa951006b
+conversations AI/Random response to a comment/А я думала, ми команда.wav|025b2f23b274db268ac708a04229f7f2
+conversations AI/Random response to a comment/Все. Більше не буду.wav|1812093c35ca79d1b9ec72e36dc274dd
+conversations AI/Random response to a comment/Жарт видалено.wav|52fe78299394fae5cd2da613346f0f46
+conversations AI/Random response to a comment/Наступного разу.wav|39eab8d33422605fc8d3a47e0b81f621
+conversations AI/Random response to a comment/Сумно.wav|1829309aab60b52cf33a0dfc8101625a
+conversations AI/Random response to a comment/Ще один день.wav|f9c51c21fa7b0011213f574462202c7e
+conversations AI/Talk to me/Его не вміщається.wav|6088c67386c43d50666e03123d9a3fe1
+conversations AI/Talk to me/Жарт. Самознищення.wav|a67cded9057b133e443c6cb8acf5aa2a
+conversations AI/Talk to me/Твої навички пілотування аналізуються.wav|11fcef680db338773e5de7fed4b35501
+conversations AI/Talk to me/Я всіх своїх пілотів люблю.wav|1e26bd687c7ab0f6b9edfc720872f09d
+conversations AI/Talk to me/Якщо ми помремо.wav|099555b7063c6866541f2f5fe77ebbe6
+conversations AI/Вітаю командор.wav|8efb4d4d2814a004effb0fc703e9b910
+conversations AI/Моє ім'я Ліа.wav|546af42d493aebafb836bdb1c3a5cbfb
+VoiceAttackProfile/Star Citizen Voice-Profile.vap|d16f8287110c3df1bb7ccfea84891eef
+Активний сканер вимкнено.wav|ef56a28cce138f3600f9a4ad0d9fc466
+Активний сканер запущено.wav|d9909d5ab873a61560b8004a277499b6
+Активую точку стрибка.wav|410c65da47030e55c76166233725828c
+Виконую взліт.wav|7bc92b2cc2c3e216b48a74b5ddc650e0
+Виконую квантумний стрибок.wav|103ada64d7201fd3d1896c08e74a1b20
+Вимикаю зовнішнє освітлення.wav|a65fa1be18e75d66d34f99e8e8fbc4e1
+Вмикаю зовнішнє освітлення.wav|c22ca79fa1a338362f9155c552cc9ca6
+Двигун вимкнено.wav|30cfa795a8741d9ce3dcad8d2c271644
+Двигун запущено.wav|8097efd1a78dd0ddede57ef87457905a
+Енергопостачання за замовчуванням.wav|e308f1bff061800e404d45bbac8b17d3
+Живлення вимкнено.wav|3ecb11257c8e7ffeb53a8a7253824b74
+Живлення увімкнено.wav|a8cb9b75aa4f80d57c7b027756c0fa37
+Задній щит.wav|2ca08b5dd93756b07b2d9dde982665a7
+Збільшення енергопостачання двигунів.wav|c448e15d4fa2d0ffb4f04b5c9ffdee03
+Збільшення енергопостачання зброї.wav|d60e4bce5a8c774236ad2fb60999ea05
+Збільшення енергопостачання щитів.wav|69ef07191c9e6cbdcf7a9b7b1ac8d34c
+Здійснюю автоматичну посадку.wav|d198a8383d4f79f125c7d273e1c5c49f
+Конфігурацію корабля змінено.wav|9f643a000bae49e4fb5cab297dd84f1c
+Корабельна зброя активована.wav|5093e0f3d91da68011d77bee9165c7d7
+Корабельна зброя деактивована.wav|ea5b81ba51749841abde909d59a62b7f
+Лівий щит.wav|6cff011d0f28e2af3a4a5bbedfc35c11
+Надсилаю запит (стиковка-відстиковка).wav|5530441ee5c415985bcf37e2861adf53
+Надсилаю запит вантажного доку.wav|4faa9c1c9c5e8417aab36116fe102fca
+Передній щит.wav|6df33bf397ad5ba832768925e1b0fc60
+Перемикаю у бойовий режим.wav|c37fe23dcf6df529a523a3285ee0f9fe
+Перемикаю у навігаційний режим.wav|43df646753cdca8149cf8110a90e9353
+Правий щит.wav|fd45d93212e3b9a9ac5f3b45fe9c7148
+Процедура катапультування.wav|b4af9ae51855896ba592887b24c79fab
+Режим керування зброєю увімкнено.wav|dce7abd0c3463c3a79eaab7faee6bdf7
+Режим керування ракетами увімкнено.wav|4f127c942a254b9f22e6c53d4a1594c3
+Режим керування сканером увімкнено.wav|b13aa7cf34e5eee2c8e88ac315dadf3a
+Режим роботи двигуна було змінено.wav|91811b92a0bf77a25a4446c98bba76c7
+Шасі випущено.wav|5dde818bc11fea2eca7632321cd6d56b
+Шасі прибрано.wav|b528ee111324f12ede9d7afe131105bc
+Щити за замовчуванням.wav|7d8a14d3e517084b05c7200e798a721f
+Щити корабля активовано.wav|328ec1105d3d1a0616221cca748f3eb0
+Щити корабля деактивовано.wav|08b5831638fd48c35981750ad02b7344
