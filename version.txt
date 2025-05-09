@@ -1,4 +1,5 @@
 #version=v1.2.1
+minFiles=82
 conversations AI/Hi Lia/Нарешті.wav|2b0f5c168108d25b3cc40a84c1507e82
 conversations AI/Hi Lia/Не хвилюйся.wav|027ed49de47f391bc8e4f5d52f5e4220
 conversations AI/Introduction/Базові команди.wav|f059e8b3de72cbadccbb0c124b0ec07e
