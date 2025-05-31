@@ -1,0 +1,17 @@
+#version=v1.2.2
+minFiles=15
+Config/commands.json|45e8642e8521ec9b7dbcd21b19e340cf
+Config/synonyms.json|0286b4c45c779434d29ace3bb1313e3d
+libgcc_s_seh-1.dll|6c39c37f05b68f7515b07ea6a803d19d
+libstdc++-6.dll|bdd217aa63ce123986a70570edb8909b
+libvosk.dll|8778133e327b5630e5bcdbaa3107533c
+libwinpthread-1.dll|ecd7c5d4c6c8d905f3eed86313cf06d8
+NAudio.WinMM.dll|faf1ba532964984a34d60674fbc7a5a7
+Newtonsoft.Json.dll|bbe7bab7d62fff428929222396154324
+UserSettings/StarCitizenKeyboardProfile/layout_VoicePack_LIA_exported.xml|e706e9ee7da0fac9617410969290bddb
+UserSettings/VoiceAttackProfile/Info/Доступні голосові команди.txt|400a819286102c657f364debf6eff41c
+UserSettings/VoiceAttackProfile/Star Citizen LIA-Profile.vap|01eb3cb077aef166478608f03595fff2
+VoicePackLIA.deps.json|423b9ef4ee7a911b3f4bd9a2950cc396
+VoicePackLIA.dll|b7bdf0b9f5c78f06b27325f2bdb174f9
+VoicePackLIA.pdb|06c24333051e63f52338dfb05a716c05
+VoskSharp.dll|3610a6debf52e091af212bb5d2da7fc8

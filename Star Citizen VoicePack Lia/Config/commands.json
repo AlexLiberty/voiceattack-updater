@@ -1,0 +1,379 @@
+[
+  {
+    "phrase": "прибрати шасі",
+    "sounds": [ "Sounds/Шасі прибрано.wav" ],
+    "command": "HandleLandingGearUp",
+    "Random": false
+  },
+  {
+    "phrase": "випустити шасі",
+    "sounds": [ "Sounds/Шасі випущено.wav" ],
+    "command": "HandleLandingGearDown",
+    "Random": false
+  },
+  {
+    "phrase": "запустити всі системи",
+    "sounds": [ "Sounds/Живлення увімкнено.wav" ],
+    "command": "HandleRunAllSystem",
+    "Random": false
+  },
+  {
+    "phrase": "вимкнути живлення",
+    "sounds": [ "Sounds/Живлення вимкнено.wav" ],
+    "command": "HandlePowerOff",
+    "Random": false
+  },
+  {
+    "phrase": "змінити режим двигуна",
+    "sounds": [ "Sounds/Режим роботи двигуна було змінено.wav" ],
+    "command": "HandleChangeEngineMode",
+    "Random": false
+  },
+  {
+    "phrase": "запустити двигун",
+    "sounds": [ "Sounds/Двигун запущено.wav" ],
+    "command": "HandleEngineOn",
+    "Random": false
+  },
+  {
+    "phrase": "вимкнути двигун",
+    "sounds": [ "Sounds/Двигун вимкнено.wav" ],
+    "command": "HandleEngineOff",
+    "Random": false
+  },
+  {
+    "phrase": "запит стикування",
+    "sounds": [ "Sounds/Надсилаю запит.wav" ],
+    "command": "HandleDockingRequest",
+    "Random": false
+  },
+  {
+    "phrase": "запит вантажного доку",
+    "sounds": [ "Sounds/Надсилаю запит вантажного доку.wav" ],
+    "command": "HandleСargoDockingRequest",
+    "Random": false
+  },
+  {
+    "phrase": "катапультування",
+    "sounds": [ "Sounds/Процедура катапультування.wav" ],
+    "command": "HandleEjeckt",
+    "Random": false
+  },
+  {
+    "phrase": "вимкнути радар",
+    "sounds": [ "Sounds/Активний радар вимкнено.wav" ],
+    "command": "HandleKillActiveRadar",
+    "Random": false
+  },
+  {
+    "phrase": "запустити радар",
+    "sounds": [ "Sounds/Активний радар запущено.wav" ],
+    "command": "HandleRunActiveRadar",
+    "Random": false
+  },
+  {
+    "phrase": "максимум енергії на двигуни",
+    "sounds": [ "Sounds/Збільшення енергопостачання двигунів.wav" ],
+    "command": "HandleMaxEnergyEngine",
+    "Random": false
+  },
+  {
+    "phrase": "максимум енергії на зброю",
+    "sounds": [ "Sounds/Збільшення енергопостачання зброї.wav" ],
+    "command": "HandleMaxEnergyWeapon",
+    "Random": false
+  },
+  {
+    "phrase": "максимум енергії на щити",
+    "sounds": [ "Sounds/Збільшення енергопостачання щитів.wav" ],
+    "command": "HandleMaxEnergyShild",
+    "Random": false
+  },
+  {
+    "phrase": "скинути енергопостачання",
+    "sounds": [ "Sounds/Енергопостачання за замовчуванням.wav" ],
+    "command": "HandleEnergyDefault",
+    "Random": false
+  },
+  {
+    "phrase": "вимкнути зброю",
+    "sounds": [ "Sounds/Корабельна зброя деактивована.wav" ],
+    "command": "HandleWeaponOff",
+    "Random": false
+  },
+  {
+    "phrase": "включити зброю",
+    "sounds": [ "Sounds/Корабельна зброя активована.wav" ],
+    "command": "HandleWeaponOn",
+    "Random": false
+  },
+  {
+    "phrase": "вимкнути зовнішнє освітлення",
+    "sounds": [ "Sounds/Вимикаю зовнішнє освітлення.wav" ],
+    "command": "HandleLightOff",
+    "Random": false
+  },
+  {
+    "phrase": "включити зовнішнє освітлення",
+    "sounds": [ "Sounds/Вмикаю зовнішнє освітлення.wav" ],
+    "command": "HandleLightOn",
+    "Random": false
+  },
+  {
+    "phrase": "тактичний режим",
+    "sounds": [
+      "Sounds/conversationsAI/Від'єднуюсь від систем корабля.wav",
+      "Sounds/conversationsAI/Наземні протоколи активовані.wav"
+    ],
+    "command": "HandleTactical",
+    "Random": false
+  },
+  {
+    "phrase": "режим польоту",
+    "sounds": [ "Sounds/conversationsAI/Режим польоту активовано.wav" ],
+    "command": "HandleNavigate",
+    "Random": false
+  },
+  {
+    "phrase": "зупинити",
+    "sounds": [],
+    "command": "HandleStop",
+    "Random": false
+  },
+  {
+    "phrase": "крусейдер довідка",
+    "sounds": [ "Sounds/conversationsAI/Lore/Locations/Planets/Stanton/Крусейдер.wav" ],
+    "command": "HandleCrusaderInfo",
+    "Random": false
+  },
+  {
+    "phrase": "деймар довідка",
+    "sounds": [ "Sounds/conversationsAI/Lore/Locations/Planets/Stanton/Деймар.wav" ],
+    "command": "HandleDaymarInfo",
+    "Random": false
+  },
+  {
+    "phrase": "єла довідка",
+    "sounds": [ "Sounds/conversationsAI/Lore/Locations/Planets/Stanton/Єла.wav" ],
+    "command": "HandleYelaInfo",
+    "Random": false
+  },
+  {
+    "phrase": "селін довідка",
+    "sounds": [ "Sounds/conversationsAI/Lore/Locations/Planets/Stanton/Селлін.wav" ],
+    "command": "HandleSellinInfo",
+    "Random": false
+  },
+  {
+    "phrase": "базові можливості",
+    "sounds": [
+      "Sounds/conversationsAI/Introduction/Доступ до інтерактивної довідки.wav",
+      "Sounds/conversationsAI/Introduction/Розширені можливості.wav"
+    ],
+    "command": "HandleBaseInfo",
+    "Random": false
+  },
+  {
+    "phrase": "комп'ютер",
+    "sounds": [
+      "Sounds/conversationsAI/Introduction/Моє ім'я Ліа.wav",
+      "Sounds/conversationsAI/Introduction/Для ефективної взаємодії.wav",
+      "Sounds/conversationsAI/Introduction/Команда ознайомлення.wav"
+    ],
+    "command": "HandleComputer",
+    "Random": false
+  },
+  {
+    "phrase": "ознайомлення",
+    "sounds": [
+      "Sounds/conversationsAI/Introduction/Ліа працює у двох режимах.wav",
+      "Sounds/conversationsAI/Introduction/Для переходу в режим польоту.wav",
+      "Sounds/conversationsAI/Introduction/Базові команди.wav"
+    ],
+    "command": "HandleFirstContact",
+    "Random": false
+  },
+  {
+    "phrase": "розширені можливості",
+    "sounds": [
+      "Sounds/conversationsAI/Introduction/Команда автоматичний взліт.wav",
+      "Sounds/conversationsAI/Introduction/Команда актитвиний пінг радару.wav"
+    ],
+    "command": "HandleAdvancedInfo",
+    "Random": false
+  },
+  {
+    "phrase": "бойовий режим",
+    "sounds": [ "Sounds/Перемикаю у бойовий режим.wav" ],
+    "command": "HandleCombatMode",
+    "Random": false
+  },
+  {
+    "phrase": "навігаційний режим",
+    "sounds": [ "Sounds/Перемикаю у навігаційний режим.wav" ],
+    "command": "HandleNavMode",
+    "Random": false
+  },
+  {
+    "phrase": "режим видобутку",
+    "sounds": [ "Sounds/Режим видобутку активовано.wav" ],
+    "command": "HandleMiningMode",
+    "Random": false
+  },
+  {
+    "phrase": "режим керування зброєю",
+    "sounds": [ "Sounds/Режим керування зброєю увімкнено.wav" ],
+    "command": "HandleWeaponMode",
+    "Random": false
+  },
+  {
+    "phrase": "режим керування ракетами",
+    "sounds": [ "Sounds/Режим керування ракетами увімкнено.wav" ],
+    "command": "HandleMissileMode",
+    "Random": false
+  },
+  {
+    "phrase": "режим керування сканером",
+    "sounds": [ "Sounds/Режим керування сканером увімкнено.wav" ],
+    "command": "HandleScanerMode",
+    "Random": false
+  },
+  {
+    "phrase": "змінити конфігурацію",
+    "sounds": [ "Sounds/Конфігурацію корабля змінено.wav" ],
+    "command": "HandleVtolMode",
+    "Random": false
+  },
+  {
+    "phrase": "стрибок",
+    "sounds": [ "Sounds/Виконую квантумний стрибок.wav" ],
+    "command": "HandleQuantumJump",
+    "Random": false
+  },
+  {
+    "phrase": "вимкнути щити",
+    "sounds": [ "Sounds/Щити деактивовано.wav" ],
+    "command": "HandleShieldOff",
+    "Random": false
+  },
+  {
+    "phrase": "включити щити",
+    "sounds": [ "Sounds/Щити активовано.wav" ],
+    "command": "HandleShieldOn",
+    "Random": false
+  },
+  {
+    "phrase": "щит ліворуч",
+    "sounds": [ "Sounds/Лівий щит.wav" ],
+    "command": "HandleShieldLeft",
+    "Random": false
+  },
+  {
+    "phrase": "щит назад",
+    "sounds": [ "Sounds/Задній щит.wav" ],
+    "command": "HandleShieldBack",
+    "Random": false
+  },
+  {
+    "phrase": "щит праворуч",
+    "sounds": [ "Sounds/Правий щит.wav" ],
+    "command": "HandleShieldRight",
+    "Random": false
+  },
+  {
+    "phrase": "щит перед",
+    "sounds": [ "Sounds/Передній щит.wav" ],
+    "command": "HandleShieldFront",
+    "Random": false
+  },
+  {
+    "phrase": "щити за замовчуванням",
+    "sounds": [ "Sounds/Щити за замовчуванням.wav" ],
+    "command": "HandleShieldDefault",
+    "Random": false
+  },
+  {
+    "phrase": "автоматичний зліт",
+    "sounds": [
+      "Sounds/Виконую зліт.wav",
+      "Sounds/Режим роботи двигуна було змінено.wav",
+      "Sounds/Шасі прибрано.wav"
+    ],
+    "command": "HandleAutoUp",
+    "Random": false
+  },
+  {
+    "phrase": "автоматична посадка",
+    "sounds": [ "Sounds/Здійснюю автоматичну посадку.wav" ],
+    "command": "HandleAutoDown",
+    "Random": false
+  },
+  {
+    "phrase": "ліа",
+    "sounds": [
+      "Sounds/conversationsAI/HiLia/Нарешті.wav",
+      "Sounds/conversationsAI/HiLia/Не хвилюйся.wav"
+    ],
+    "command": "HandleHiLIA",
+    "Random": true
+  },
+  {
+    "phrase": "поговори зі мною",
+    "sounds": [
+      "Sounds/conversationsAI/TalkToMe/Его не вміщається.wav",
+      "Sounds/conversationsAI/TalkToMe/Жарт про самознищення.wav",
+      "Sounds/conversationsAI/TalkToMe/Оператор говорить Ліа вдає.wav",
+      "Sounds/conversationsAI/TalkToMe/Порада. Менше геройства.wav",
+      "Sounds/conversationsAI/TalkToMe/Тактична порада. Не починай бій.wav",
+      "Sounds/conversationsAI/TalkToMe/Твої навички пілотування аналізуються.wav",
+      "Sounds/conversationsAI/TalkToMe/Я бездушта зате чесна.wav",
+      "Sounds/conversationsAI/TalkToMe/Я всіх своїх пілотів люблю.wav",
+      "Sounds/conversationsAI/TalkToMe/Якщо ми помремо.wav"
+    ],
+    "command": "HandleTalkToMe",
+    "Random": true
+  },
+  {
+    "phrase": "дуже дотепно",
+    "sounds": [
+      "Sounds/conversationsAI/RandomResponseToAComment/А я думала, ми команда.wav",
+      "Sounds/conversationsAI/RandomResponseToAComment/Все. Більше не буду.wav",
+      "Sounds/conversationsAI/RandomResponseToAComment/Жарт видалено.wav",
+      "Sounds/conversationsAI/RandomResponseToAComment/Наступного разу.wav",
+      "Sounds/conversationsAI/RandomResponseToAComment/Сумно.wav",
+      "Sounds/conversationsAI/RandomResponseToAComment/Ще один день.wav"
+    ],
+    "command": "HandleRandomResponseToAComment",
+    "Random": true
+  },
+  {
+    "phrase": "хурстон довідка",
+    "sounds": [ "Sounds/conversationsAI/Lore/Locations/Planets/Stanton/Хурстон.wav" ],
+    "command": "HandleHurstonInfo",
+    "Random": false
+  },
+  {
+    "phrase": "абердін довідка",
+    "sounds": [ "Sounds/conversationsAI/Lore/Locations/Planets/Stanton/Абердін.wav" ],
+    "command": "HandleAberdeenInfo",
+    "Random": false
+  },
+  {
+    "phrase": "аріал довідка",
+    "sounds": [ "Sounds/conversationsAI/Lore/Locations/Planets/Stanton/Аріал.wav" ],
+    "command": "HandleArialInfo",
+    "Random": false
+  },
+  {
+    "phrase": "іта довідка",
+    "sounds": [ "Sounds/conversationsAI/Lore/Locations/Planets/Stanton/Іта.wav" ],
+    "command": "HandleItaInfo",
+    "Random": false
+  },
+  {
+    "phrase": "магда довідка",
+    "sounds": [ "Sounds/conversationsAI/Lore/Locations/Planets/Stanton/Магда.wav" ],
+    "command": "HandleMagdaInfo",
+    "Random": false
+  }
+]
