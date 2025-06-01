@@ -1,4 +1,4 @@
-#version=v1.2.2
+#version=v1.2.3
 minFiles=15
 Config/commands.json|eac1ca48a3cac3efd6590237f85482ea
 Config/synonyms.json|096a24dda3bb5cfe488c6245d8a9871b
