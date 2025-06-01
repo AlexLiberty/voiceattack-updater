@@ -26,7 +26,7 @@
   {
     "phrase": "змінити режим двигуна",
     "sounds": [ "Sounds/Режим роботи двигуна було змінено.wav" ],
-    "command": "HandleChangeEngineMode",
+    "command": "HandleVTOL",
     "Random": false
   },
   {
@@ -241,7 +241,7 @@
   {
     "phrase": "змінити конфігурацію",
     "sounds": [ "Sounds/Конфігурацію корабля змінено.wav" ],
-    "command": "HandleVtolMode",
+    "command": "HandleConfigShip",
     "Random": false
   },
   {

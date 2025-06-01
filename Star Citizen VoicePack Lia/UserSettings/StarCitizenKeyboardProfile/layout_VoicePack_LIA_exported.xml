@@ -96,6 +96,9 @@
   <action name="v_toggle_landing_system">
    <rebind input="kb1_ "/>
   </action>
+  <action name="v_transform_cycle">
+   <rebind input="kb1_k" multiTap="2"/>
+  </action>
  </actionmap>
  <actionmap name="spaceship_quantum">
   <action name="v_toggle_qdrive_engagement">
