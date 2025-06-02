@@ -120,21 +120,6 @@
     "Random": false
   },
   {
-    "phrase": "тактичний режим",
-    "sounds": [
-      "Sounds/conversationsAI/Від'єднуюсь від систем корабля.wav",
-      "Sounds/conversationsAI/Наземні протоколи активовані.wav"
-    ],
-    "command": "HandleTactical",
-    "Random": false
-  },
-  {
-    "phrase": "режим польоту",
-    "sounds": [ "Sounds/conversationsAI/Режим польоту активовано.wav" ],
-    "command": "HandleNavigate",
-    "Random": false
-  },
-  {
     "phrase": "зупинити",
     "sounds": [],
     "command": "HandleStop",
