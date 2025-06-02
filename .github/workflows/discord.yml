@@ -36,7 +36,7 @@ jobs:
           EMBED=$(jq -n \
             --arg title "🔄 Оновлення ресурсів голосового пакету" \
             --arg description "Дата оновлення: $COMMIT_DATE" \
-            --arg version "Версія: $VERSION" \
+            --arg description "Версія: $VERSION" \
             --arg url "$COMMIT_URL" \
             --argjson color 5814783 \
             '{embeds: [{title: $title, description: $description, url: $url, color: $color}]}' )
