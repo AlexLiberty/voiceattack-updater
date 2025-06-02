@@ -11,6 +11,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # ВАЖЛИВО для підрахунку кількості комітів
 
       - name: Get commit date
         id: commit
@@ -33,7 +35,7 @@ jobs:
           COMMIT_URL: ${{ github.event.head_commit.url }}
           VERSION: ${{ steps.version.outputs.VERSION }}
         run: |
-          DESCRIPTION="Дата оновлення: $COMMIT_DATE\nВерсія: $VERSION"
+          DESCRIPTION=$'Дата оновлення: '"$COMMIT_DATE"$' Версія: '"$VERSION"
           EMBED=$(jq -n \
             --arg title "🔄 Оновлення ресурсів голосового пакету" \
             --arg description "$DESCRIPTION" \
