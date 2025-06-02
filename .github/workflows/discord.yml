@@ -33,7 +33,7 @@ jobs:
           COMMIT_URL: ${{ github.event.head_commit.url }}
           VERSION: ${{ steps.version.outputs.VERSION }}
         run: |
-         DESCRIPTION="Дата оновлення: $COMMIT_DATE\nВерсія: $VERSION"
+         DESCRIPTION="Дата оновлення: $COMMIT_DATE Версія: $VERSION"
           EMBED=$(jq -n \
             --arg title "🔄 Оновлення ресурсів голосового пакету" \
             --arg description "$DESCRIPTION" \
