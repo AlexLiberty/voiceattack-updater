@@ -21,7 +21,7 @@ jobs:
       - name: Calculate fake version
         id: version
         run: |
-          COUNT=$(git rev-list --count origin/master)
+          COUNT=$(git rev-list --count HEAD)
           PATCH=$((COUNT + 4))
           VERSION="v1.0.$PATCH"
           echo "VERSION=$VERSION" >> $GITHUB_OUTPUT
