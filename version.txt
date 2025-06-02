@@ -1,4 +1,4 @@
-#version=v1.2.6
+#version=v1.2.7
 minFiles=16
 Config/blocked_commands.json|c44d57a3cfdbfbc2aa9c68865e3e0a8b
 Config/commands.json|ea8d7bd6739b2f99c7944f5166e5b443
