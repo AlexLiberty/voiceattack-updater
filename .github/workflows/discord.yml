@@ -12,7 +12,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
         with:
-          fetch-depth: 0  # ВАЖЛИВО для підрахунку кількості комітів
+          fetch-depth: 0  # обовʼязково
 
       - name: Get commit date
         id: commit
@@ -20,12 +20,18 @@ jobs:
           DATE=$(git log -1 --format=%cd --date=format:'%d-%m-%Y')
           echo "DATE=$DATE" >> $GITHUB_OUTPUT
 
-      - name: Calculate fake version
+      - name: Calculate smart version
         id: version
         run: |
           COUNT=$(git rev-list --count HEAD)
-          PATCH=$((COUNT + 4))
-          VERSION="v1.0.$PATCH"
+          BASE=4
+          TOTAL=$((COUNT + BASE))
+
+          MAJOR=1
+          MINOR=$((TOTAL / 10))
+          PATCH=$((TOTAL % 10))
+
+          VERSION="v$MAJOR.$MINOR.$PATCH"
           echo "VERSION=$VERSION" >> $GITHUB_OUTPUT
 
       - name: Send Discord Notification
@@ -35,7 +41,7 @@ jobs:
           COMMIT_URL: ${{ github.event.head_commit.url }}
           VERSION: ${{ steps.version.outputs.VERSION }}
         run: |
-          DESCRIPTION=$'Дата оновлення: '"$COMMIT_DATE"$' Версія: '"$VERSION"
+          DESCRIPTION=$'Дата оновлення: '"$COMMIT_DATE"$'\nВерсія: '"$VERSION"
           EMBED=$(jq -n \
             --arg title "🔄 Оновлення ресурсів голосового пакету" \
             --arg description "$DESCRIPTION" \
