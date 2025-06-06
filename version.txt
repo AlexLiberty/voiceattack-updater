@@ -1,4 +1,4 @@
-#version=v1.3.0
+#version=v1.3.1
 minFiles=13
 libgcc_s_seh-1.dll|6c39c37f05b68f7515b07ea6a803d19d
 libstdc++-6.dll|bdd217aa63ce123986a70570edb8909b
@@ -10,6 +10,6 @@ UserSettings/StarCitizenKeyboardProfile/layout_VoicePack_LIA_exported.xml|9715fd
 UserSettings/VoiceAttackProfile/Info/Доступні голосові команди.txt|42fb3597737912fc42ac3a321510436b
 UserSettings/VoiceAttackProfile/Star Citizen LIA-Profile.vap|f430da8957f1935fc444fd97ccde7c45
 VoicePackLIA.deps.json|423b9ef4ee7a911b3f4bd9a2950cc396
-VoicePackLIA.dll|778ecb998175b64703a14f4effb281b1
+VoicePackLIA.dll|a1054b93f95803a8031e4682142c7ac3
 VoicePackLIA.pdb|2d73989f2746bcee40abb501894b7bcc
 VoskSharp.dll|3610a6debf52e091af212bb5d2da7fc8
