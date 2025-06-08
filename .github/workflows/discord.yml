@@ -1,0 +1,64 @@
+name: Notify Discord on Branch Update
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  notify-discord:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Get commit date
+        id: commit
+        run: |
+          DATE=$(git log -1 --format=%cd --date=format:'%d-%m-%Y')
+          echo "DATE=$DATE" >> $GITHUB_OUTPUT
+
+      - name: Calculate smart version
+        id: version
+        run: |
+          COUNT=$(git rev-list --count HEAD)
+
+          # Початкові значення версії
+          MAJOR=1
+          MINOR=3
+          PATCH_START=7
+
+          TOTAL_PATCH=$((PATCH_START + COUNT))
+
+          PATCH=$((TOTAL_PATCH % 10))
+          MINOR_INCREMENT=$((TOTAL_PATCH / 10))
+
+          MINOR=$((MINOR + MINOR_INCREMENT))
+          MAJOR_INCREMENT=$((MINOR / 10))
+          MINOR=$((MINOR % 10))
+
+          MAJOR=$((MAJOR + MAJOR_INCREMENT))
+
+          VERSION="$MAJOR.$MINOR.$PATCH"
+          echo "VERSION=$VERSION" >> $GITHUB_OUTPUT
+
+      - name: Send Discord Notification
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.USFDISCORDHOOK }}
+          COMMIT_DATE: ${{ steps.commit.outputs.DATE }}
+          COMMIT_URL: ${{ github.event.head_commit.url }}
+          VERSION: ${{ steps.version.outputs.VERSION }}
+        run: |
+          DESCRIPTION=$'Дата оновлення: '"$COMMIT_DATE"$'\nВерсія: '"$VERSION"
+          EMBED=$(jq -n \
+            --arg title "🔄 Оновлення ресурсів голосового пакету" \
+            --arg description "$DESCRIPTION" \
+            --arg url "$COMMIT_URL" \
+            --argjson color 5814783 \
+            '{embeds: [{title: $title, description: $description, url: $url, color: $color}]}' )
+
+          curl -X POST -H "Content-Type: application/json" \
+            -d "$EMBED" \
+            "$DISCORD_WEBHOOK"
