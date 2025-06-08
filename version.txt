@@ -1,6 +1,6 @@
-#version=1.3.7
+#version=1.3.8
 minFiles=13
-INFO/Доступні голосові команди.txt|f2e29d5c60fbb38b382ecfb1a6745c02
+INFO/Доступні голосові команди.doc|9e44f63baf2e6d215f9db17c06002922
 libgcc_s_seh-1.dll|6c39c37f05b68f7515b07ea6a803d19d
 libstdc++-6.dll|bdd217aa63ce123986a70570edb8909b
 libvosk.dll|8778133e327b5630e5bcdbaa3107533c
