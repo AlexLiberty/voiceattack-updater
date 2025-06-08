@@ -28,7 +28,7 @@ jobs:
           # Початкові значення версії
           MAJOR=1
           MINOR=3
-          PATCH_START=3
+          PATCH_START=0
 
           TOTAL_PATCH=$((PATCH_START + COUNT))
 
