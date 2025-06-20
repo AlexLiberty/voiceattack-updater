@@ -58,8 +58,17 @@
   <action name="v_close_all_doors">
    <rebind input="kb1_backslash" activationMode="double_tap"/>
   </action>
+  <action name="v_lock_all_ports">
+   <rebind input="kb1_slash" activationMode="double_tap"/>
+  </action>
   <action name="v_open_all_doors">
    <rebind input="kb1_backslash"/>
+  </action>
+  <action name="v_toggle_all_portlocks">
+   <rebind input="kb1_ "/>
+  </action>
+  <action name="v_unlock_all_ports">
+   <rebind input="kb1_slash"/>
   </action>
  </actionmap>
  <actionmap name="spaceship_movement">
@@ -103,6 +112,17 @@
  <actionmap name="spaceship_quantum">
   <action name="v_toggle_qdrive_engagement">
    <rebind input="kb1_mouse3"/>
+  </action>
+ </actionmap>
+ <actionmap name="spaceship_docking">
+  <action name="v_dock_toggle_view">
+   <rebind input="kb1_ "/>
+  </action>
+  <action name="v_invoke_docking">
+   <rebind input="kb1_ "/>
+  </action>
+  <action name="v_toggle_docking_mode">
+   <rebind input="kb1_ "/>
   </action>
  </actionmap>
  <actionmap name="spaceship_targeting">
@@ -217,6 +237,9 @@
   </action>
   <action name="emote_rude">
    <rebind input="kb1_np_9"/>
+  </action>
+  <action name="emote_salute">
+   <rebind input="kb1_np_6"/>
   </action>
   <action name="emote_wave">
    <rebind input="kb1_np_1"/>
