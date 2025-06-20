@@ -1,4 +1,4 @@
-#version=1.4.1
+#version=1.4.2
 minFiles=13
 INFO/Доступні голосові команди.doc|113343fcd84144ddb452a9ed760042ed
 libgcc_s_seh-1.dll|6c39c37f05b68f7515b07ea6a803d19d
@@ -7,7 +7,7 @@ libvosk.dll|8778133e327b5630e5bcdbaa3107533c
 libwinpthread-1.dll|ecd7c5d4c6c8d905f3eed86313cf06d8
 NAudio.WinMM.dll|faf1ba532964984a34d60674fbc7a5a7
 Newtonsoft.Json.dll|bbe7bab7d62fff428929222396154324
-Star Citizen LIA-Profile.vap|f98d7eb0ab41f4fc89e9ad0031b137be
+Star Citizen LIA-Profile.vap|6d13f5194d12906c879d6a4e6ffe48ff
 StarCitizenKeyBinding/layout_VoicePack_LIA_exported.xml|a59ecef6e009dc25ecde50408e1155e1
 VoicePackLIA.deps.json|423b9ef4ee7a911b3f4bd9a2950cc396
 VoicePackLIA.dll|d3ce5a5b13bf8d1d346dca97756ba987
