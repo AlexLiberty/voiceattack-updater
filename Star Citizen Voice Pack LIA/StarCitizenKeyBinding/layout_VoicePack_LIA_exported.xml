@@ -129,6 +129,9 @@
   <action name="v_target_remove_all_pins">
    <rebind input="kb1_ "/>
   </action>
+  <action name="v_target_unlock">
+   <rebind input="kb1_t" multiTap="2"/>
+  </action>
  </actionmap>
  <actionmap name="spaceship_target_hailing">
   <action name="v_target_hail">
