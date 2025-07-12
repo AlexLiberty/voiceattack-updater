@@ -1,15 +1,15 @@
-#version=1.4.9
+#version=1.5.0
 minFiles=13
-INFO/Доступні голосові команди.doc|01ff4c1354a42154df85d76636457838
+INFO/Доступні голосові команди.doc|73e86fe923dd24547bf30107d62978a1
 libgcc_s_seh-1.dll|6c39c37f05b68f7515b07ea6a803d19d
 libstdc++-6.dll|bdd217aa63ce123986a70570edb8909b
 libvosk.dll|8778133e327b5630e5bcdbaa3107533c
 libwinpthread-1.dll|ecd7c5d4c6c8d905f3eed86313cf06d8
 NAudio.WinMM.dll|faf1ba532964984a34d60674fbc7a5a7
 Newtonsoft.Json.dll|bbe7bab7d62fff428929222396154324
-Star Citizen LIA-Profile.vap|14d75905534304dca9a73d72643669e4
+Star Citizen LIA-Profile.vap|726b91fb09903e921e399fd968d95c8a
 StarCitizenKeyBinding/layout_VoicePack_LIA_exported.xml|187c487c73e4beb7c9be93743b8b504d
 VoicePackLIA.deps.json|b661ab5426086a9fce328478c604f178
-VoicePackLIA.dll|e240b0f9d19647ee1dfb6661ecd07210
-VoicePackLIA.pdb|cfa57c6df8488fd07efff0485b44e656
+VoicePackLIA.dll|f68172913b5bbd995ae73f214f81f3ac
+VoicePackLIA.pdb|79487cad6421f1add6c8de448d9deb3a
 VoskSharp.dll|3610a6debf52e091af212bb5d2da7fc8
